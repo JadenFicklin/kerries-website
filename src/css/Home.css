@@ -1,9 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Londrina+Solid&family=Nunito+Sans:wght@400;900&family=Oswald&family=Roboto:ital@0;1&family=Source+Sans+Pro:wght@200&display=swap");
+
 .header {
   width: 100%;
-  height: 100vh;
-  position: absolute;
+  height: 101vh;
   background-image: url("../pictures/Beige\ Minimalist\ Beauty\ Vlogger\ Facebook\ Cover.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
+  z-index: -1;
+}
+
+.section-two {
+  width: 66%;
+  height: 600px;
+  position: relative;
+  bottom: 87px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-two-top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-two-bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-one,
+.box-two,
+.box-three,
+.box-four,
+.box-five,
+.box-six,
+.box-seven,
+.box-eight {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box-one {
+  background-color: #fbd2c0;
+}
+.box-two {
+  background-image: url("../pictures/leslie-soto-M3NogSwqw0k-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+}
+.box-three {
+  background-color: black;
+}
+.box-four {
+  background-image: url("../pictures/jasmin-chew-WbWOF8z_NGQ-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+}
+.box-five {
+  background-image: url("../pictures/benjamin-lehman-5t4qCgtaLGU-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+}
+.box-seven {
+  background-image: url("../pictures/paul-gilmore-LcGP2Iy83T0-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+}
+.box-eight {
+  background-color: #fbd2c0;
+}
+.inner-one,
+.inner-three,
+.inner-six,
+.inner-eight {
+  width: 70%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inner-three {
+  color: white;
+}
+span {
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+  font-size: 39px;
+  text-align: center;
+  width: 100%;
+}
+p {
+  margin-top: 30px;
+  position: relative;
+  font-size: 15px;
+  text-align: center;
 }
