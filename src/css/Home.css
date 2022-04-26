@@ -104,3 +104,66 @@ p {
   font-size: 15px;
   text-align: center;
 }
+
+.section-three {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-three-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portrait-one-box {
+  width: 430px;
+  height: 466px;
+  background-color: #ffe3d7;
+  position: relative;
+  top: 200px;
+  left: 40px;
+}
+.portrait-one-outline {
+  width: 416px;
+  height: 565px;
+  border: 9px solid #f9b090;
+  position: relative;
+  top: -420px;
+  left: -80px;
+  z-index: 1;
+}
+.portrait-one {
+  width: 381px;
+  height: 485px;
+  background-image: url("../pictures/kerrie2.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  top: -950px;
+  left: -30px;
+  z-index: 2;
+}
+
+.section-three-right {
+  width: 42%;
+  height: 80%;
+  padding-top: 100px;
+}
+
+.who-header {
+  padding-top: 400px;
+  text-align: left;
+  font-size: 60px;
+}
+.who-paragraph {
+  text-align: left;
+  font-size: 24px;
+}
