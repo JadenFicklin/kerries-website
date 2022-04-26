@@ -1,6 +1,7 @@
 .header {
   width: 100%;
-  height: 1010px;
+  height: 100vh;
+  position: absolute;
   background-image: url("../pictures/Beige\ Minimalist\ Beauty\ Vlogger\ Facebook\ Cover.png");
   background-size: cover;
   background-position: bottom;
