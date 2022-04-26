@@ -52,7 +52,7 @@
 .box-two {
   background-image: url("../pictures/leslie-soto-M3NogSwqw0k-unsplash.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: none;
 }
 .box-three {
@@ -61,7 +61,7 @@
 .box-four {
   background-image: url("../pictures/jasmin-chew-WbWOF8z_NGQ-unsplash.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: none;
 }
 .box-five {
@@ -73,7 +73,7 @@
 .box-seven {
   background-image: url("../pictures/paul-gilmore-LcGP2Iy83T0-unsplash.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: none;
 }
 .box-eight {
