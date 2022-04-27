@@ -9,7 +9,21 @@
   background-repeat: none;
   z-index: -1;
 }
-
+.contact-me-button {
+  width: 319px;
+  height: 64px;
+  background-color: #f2b39a;
+  position: absolute;
+  z-index: 2;
+  top: 70vh;
+  left: 44%;
+  color: white;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .section-two {
   width: 66%;
   height: 600px;
@@ -166,4 +180,106 @@ p {
 .who-paragraph {
   text-align: left;
   font-size: 24px;
+}
+
+.who-i-am-button {
+  width: 180px;
+  height: 59px;
+  background-color: #f2b39a;
+  z-index: 2;
+  color: white;
+  font-size: 23px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* section four */
+.section-four {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-four-right {
+  width: 42%;
+  height: 80%;
+  padding-top: 100px;
+}
+.portrait-two-box {
+  width: 514px;
+  height: 466px;
+  background-color: #ffe3d7;
+  position: relative;
+  top: 100px;
+  left: 230px;
+}
+.portrait-two-outline {
+  width: 504px;
+  height: 331px;
+  border: 9px solid #f9b090;
+  position: relative;
+  top: -380px;
+  left: 50px;
+  z-index: 1;
+}
+.portrait-two {
+  width: 587px;
+  height: 347px;
+  background-image: url("../pictures/kerrie1.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  top: -780px;
+  left: 100px;
+  z-index: 2;
+}
+
+.section-four-left {
+  width: 40%;
+  height: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.what-header {
+  padding-top: 400px;
+  text-align: left;
+  font-size: 60px;
+  margin-top: -300px;
+}
+.what-paragraph {
+  text-align: left;
+  font-size: 24px;
+}
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #f5f3e5;
+  margin-top: 100px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.request-an-appointment-button {
+  width: 347px;
+  height: 59px;
+  background-color: #f2b39a;
+  z-index: 2;
+  color: white;
+  font-size: 23px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }

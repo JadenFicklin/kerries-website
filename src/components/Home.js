@@ -1,12 +1,22 @@
 import React from "react";
 import "../css/Home.css";
 import Nav from "./Nav";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  let navigate = useNavigate();
   return (
     <>
       <Nav />
       <div className="header"></div>
+      <div
+        className="contact-me-button"
+        onClick={() => {
+          navigate("/contact");
+        }}
+      >
+        CONTACT ME
+      </div>
       <div className="section-two">
         <div className="section-two-top">
           <div className="box-one">
@@ -75,6 +85,51 @@ function Home() {
             am :) I love my job and I love working with people! Send me any and
             all of your ideas :) Lets see what we can create!
           </p>
+          <div
+            className="who-i-am-button"
+            onClick={() => {
+              navigate("/faq");
+            }}
+          >
+            LEARN MORE
+          </div>
+        </div>
+      </div>
+      <div className="section-four">
+        <div className="section-four-left">
+          <span className="what-header">What I do</span>
+          <p className="what-paragraph">
+            I can do any type of tattoo, I am open to all styles and I will let
+            you know if something seems out of my comforting zone. I love doing
+            Linework, Geometric, Florals and love working with color! For Lip
+            tattoo, my specialty is Watercolor lips! it heals soft and natural
+            but gives your lips plenty of color and definition :) I am also
+            trained in Lipstick technique if you are looking for a more solid
+            look
+          </p>
+          <div
+            className="who-i-am-button"
+            onClick={() => {
+              navigate("/faq");
+            }}
+          >
+            LEARN MORE
+          </div>
+        </div>
+        <div className="section-four-right">
+          <div className="portrait-two-box"></div>
+          <div className="portrait-two-outline"></div>
+          <div className="portrait-two"></div>
+        </div>
+      </div>
+      <div className="footer">
+        <div
+          className="request-an-appointment-button"
+          onClick={() => {
+            navigate("/contact");
+          }}
+        >
+          Request an Appointment
         </div>
       </div>
     </>
