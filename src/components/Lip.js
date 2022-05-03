@@ -32,6 +32,15 @@ function Lip() {
           skin tone.
         </div>
       </div>
+      <div className="lip-info">
+        <div className="lip-info-inner">
+          <div className="lip-prices">Prices</div>
+          <div className="divider">|</div>
+          <div className="lip-questions">Questions & answers</div>
+          <div className="divider">|</div>
+          <div className="lip-care"> Pre and Post Care</div>
+        </div>
+      </div>
     </>
   );
 }

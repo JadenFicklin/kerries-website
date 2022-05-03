@@ -101,3 +101,26 @@
   width: 73%;
   height: 60%;
 }
+.lip-info {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(235, 235, 235);
+  background-color: #b1cbca;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lip-info-inner {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lip-prices,
+.lip-questions,
+.lip-care {
+  cursor: pointer;
+}
