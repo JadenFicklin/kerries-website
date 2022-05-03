@@ -54,7 +54,7 @@ function Eyeliner() {
       <div className="Eyeliner-box-mid-lower"></div>
       <div className="Eyeliner-box-mid-lower-line"></div>
       <div className="Eyeliner-box-bottom">
-        <div className="Eyeliner-one">02</div>
+        <div className="Eyeliner-one">01</div>
       </div>
       <div className="Eyeliner-one-header">
         What It’s Like to Get a Eyeliner Tattoo

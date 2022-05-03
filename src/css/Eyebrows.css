@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200&family=Lobster&family=Londrina+Solid&family=Nunito+Sans:wght@400;900&family=Oswald&family=Playfair+Display:wght@400;500&family=Roboto:ital@0;1&family=Source+Sans+Pro:wght@200&display=swap");
-.lip-outer {
+.Eyeliner-outer {
   width: 100%;
   height: 70vh;
   display: flex;
   flex-wrap: wrap;
 }
 
-.lip-top-left-box {
+.Eyeliner-top-left-box {
   width: 55%;
   height: 480px;
   background-color: #2b717d;
   position: relative;
   top: 20%;
 }
-.lip-top-picture {
+.Eyeliner-top-picture {
   width: 435px;
   height: 592px;
   background-image: url("../pictures/lip/c22414a32e1fc405ba5745602ccbedf3.jpg");
@@ -25,7 +25,7 @@
   left: 38%;
 }
 
-.lip-top-right-box {
+.Eyeliner-top-right-box {
   width: 45%;
   height: 400px;
   background-color: #b1cbca;
@@ -33,7 +33,7 @@
   top: 35%;
 }
 
-.lip-header {
+.Eyeliner-header {
   font-family: "Dancing Script", cursive;
   color: white;
   font-size: 128px;
@@ -43,7 +43,7 @@
   top: 40px;
   z-index: 1;
 }
-.lip-gray-box {
+.Eyeliner-gray-box {
   background-color: #292f33;
   width: 456px;
   height: 416px;
@@ -54,7 +54,7 @@
   align-items: center;
   justify-content: center;
 }
-.lip-gray-inner-box {
+.Eyeliner-gray-inner-box {
   width: 90%;
   height: 90%;
   border: 1px solid #f2dbc8;
@@ -62,7 +62,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.lip-gray-top {
+.Eyeliner-gray-top {
   font-family: "Playfair Display", serif;
   width: 80%;
   height: 40%;
@@ -73,7 +73,7 @@
   align-items: center;
   text-align: center;
 }
-.lip-gray-bottom {
+.Eyeliner-gray-bottom {
   color: #f2dbc8;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -82,7 +82,7 @@
   font-size: 19px;
   letter-spacing: 2px;
 }
-.lip-paragraph-one {
+.Eyeliner-paragraph-one {
   width: 30%;
   height: 256px;
   margin-left: 14%;
@@ -93,19 +93,18 @@
   align-items: center;
   margin-bottom: 200px;
 }
-.lip-paragraph-one-inner {
+.Eyeliner-paragraph-one-inner {
   font-family: "Inter", sans-serif;
-  font-size: 22px;
+  font-size: 19px;
   letter-spacing: 2px;
   font-weight: 900;
   width: 90%;
   height: 60%;
   z-index: 1;
 }
-.lip-info {
+.Eyeliner-info {
   width: 100%;
   height: 40px;
-  background-color: rgb(235, 235, 235);
   background-color: #b1cbca;
   position: fixed;
   bottom: 0px;
@@ -114,16 +113,16 @@
   align-items: center;
   z-index: 2;
 }
-.lip-info-inner {
+.Eyeliner-info-inner {
   width: 50%;
   color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.lip-prices,
-.lip-questions,
-.lip-care {
+.Eyeliner-prices,
+.Eyeliner-questions,
+.Eyeliner-care {
   cursor: pointer;
 }
 .four-pictures-container {
@@ -145,27 +144,27 @@
   height: 295px;
   margin-bottom: 50px;
 }
-.lip-pictures-one,
-.lip-pictures-two,
-.lip-pictures-three,
-.lip-pictures-four {
+.eyebrows-pictures-one,
+.eyebrows-pictures-two,
+.eyebrows-pictures-three,
+.eyebrows-pictures-four {
   background-size: cover;
   background-position: center;
   background-repeat: none;
 }
-.lip-pictures-one {
-  background-image: url("../pictures/lip/lip\ tattoos\ 1.jpg");
+.eyebrows-pictures-one {
+  background-image: url("../pictures/eyebrows/brows\ 1.JPG");
 }
-.lip-pictures-two {
-  background-image: url("../pictures/lip/0c0bbbc23fe6e389500b28892de56078.jpg");
+.eyebrows-pictures-two {
+  background-image: url("../pictures/lip/c22414a32e1fc405ba5745602ccbedf3.jpg");
 }
-.lip-pictures-three {
-  background-image: url("../pictures/lip/lip\ tattoos\ 2.jpg");
+.eyebrows-pictures-three {
+  background-image: url("../pictures/eyebrows/brows\ 2.JPG");
 }
-.lip-pictures-four {
+.eyebrows-pictures-four {
   background-image: url("../pictures/lip/lip\ tattoos\ 3.jpg");
 }
-.lip-box-mid {
+.Eyeliner-box-mid {
   width: 725px;
   height: 682px;
   background-color: #b1cbca;
@@ -175,7 +174,7 @@
   left: 14%;
   z-index: -1;
 }
-.lip-box-mid-line {
+.Eyeliner-box-mid-line {
   width: 1064px;
   height: 269px;
   background-image: url("../pictures/lip/line4.png");
@@ -187,7 +186,7 @@
   left: 14%;
   z-index: 1;
 }
-.lip-portrait-mid {
+.Eyeliner-portrait-mid {
   background-image: url("../pictures/lip/lip\ tattoos\ 3.jpg");
   background-size: cover;
   background-position: center;
@@ -198,7 +197,7 @@
   width: 564px;
   height: 762px;
 }
-.lip-box-mid-lower {
+.Eyeliner-box-mid-lower {
   width: 60%;
   height: 760px;
   background-color: #2b717d;
@@ -208,7 +207,7 @@
   z-index: -1;
 }
 
-.lip-box-mid-lower-line {
+.Eyeliner-box-mid-lower-line {
   width: 1200px;
   height: 309px;
   background-image: url("../pictures/lip/4.png");
@@ -220,7 +219,7 @@
   margin-top: -660px;
   z-index: 1;
 }
-.lip-box-bottom {
+.Eyeliner-box-bottom {
   width: 570px;
   height: 775px;
   background-color: #b1cbca;
@@ -231,12 +230,12 @@
   display: flex;
   justify-content: center;
 }
-.lip-one {
+.Eyeliner-one {
   font-family: "Playfair Display", serif;
   font-size: 152px;
   margin-left: 120px;
 }
-.lip-one-header {
+.Eyeliner-one-header {
   font-size: 30px;
   width: 907px;
   position: relative;
@@ -244,7 +243,7 @@
   left: 29%;
   margin-bottom: -300px;
 }
-.lip-lower-paragraph {
+.Eyeliner-lower-paragraph {
   width: 611px;
   height: 367px;
   position: absolute;
