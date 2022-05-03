@@ -10,7 +10,7 @@
   z-index: -1;
 }
 .contact-me-button {
-  width: 319px;
+  width: 471px;
   height: 64px;
   background-color: #f2b39a;
   position: absolute;
@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  letter-spacing: 7px;
 }
 .section-two {
   width: 66%;

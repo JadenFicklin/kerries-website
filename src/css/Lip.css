@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200&family=Lobster&family=Londrina+Solid&family=Nunito+Sans:wght@400;900&family=Oswald&family=Playfair+Display:wght@400;500&family=Roboto:ital@0;1&family=Source+Sans+Pro:wght@200&display=swap");
+.lip-outer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lip-top-left-box {
+  width: 55%;
+  height: 480px;
+  background-color: #2b717d;
+  position: relative;
+  top: 20%;
+}
+.lip-top-picture {
+  width: 435px;
+  height: 592px;
+  background-image: url("../pictures/lip/c22414a32e1fc405ba5745602ccbedf3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  position: absolute;
+  top: 20%;
+  left: 38%;
+}
+
+.lip-top-right-box {
+  width: 45%;
+  height: 400px;
+  background-color: #b1cbca;
+  position: relative;
+  top: 35%;
+}
+
+.lip-header {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 128px;
+  transform: rotate(-10deg);
+  margin-left: 30%;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+}
+.lip-gray-box {
+  background-color: #292f33;
+  width: 456px;
+  height: 416px;
+  position: absolute;
+  left: 52%;
+  top: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lip-gray-inner-box {
+  width: 90%;
+  height: 90%;
+  border: 1px solid #f2dbc8;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.lip-gray-top {
+  font-family: "Playfair Display", serif;
+  width: 80%;
+  height: 40%;
+  color: #f2dbc8;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.lip-gray-bottom {
+  color: #f2dbc8;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  width: 90%;
+  height: 100%;
+  font-size: 19px;
+  letter-spacing: 2px;
+}
+.lip-paragraph-one {
+  width: 700px;
+  height: 256px;
+  margin-left: 250px;
+  margin-top: 50px;
+  border-left: 14px solid #e8dcce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.lip-paragraph-one-inner {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  width: 73%;
+  height: 60%;
+}

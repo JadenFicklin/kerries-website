@@ -12,10 +12,10 @@ function Home() {
       <div
         className="contact-me-button"
         onClick={() => {
-          navigate("/contact");
+          navigate("/appointment");
         }}
       >
-        CONTACT ME
+        SETUP APPOINTMENT
       </div>
       <div className="section-two">
         <div className="section-two-top">
