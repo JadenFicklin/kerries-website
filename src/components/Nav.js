@@ -17,39 +17,24 @@ function Nav() {
           >
             HOME
           </button>
+          <button className="nav-tattoos">TATTOOS</button>
           <button
-            className="nav-lip-tattoo"
+            className="nav-contact"
             onClick={() => {
-              navigate("/liptattoo");
+              navigate("/contact");
             }}
           >
-            LIP TATTOO
+            CONTACT
           </button>
           <button
-            className="nav-tattoo"
+            className="nav-appointment"
             onClick={() => {
-              navigate("/tattoo");
+              navigate("/appointment");
             }}
           >
-            TATTOO
-          </button>
-          <button
-            className="nav-faq"
-            onClick={() => {
-              navigate("/faq");
-            }}
-          >
-            FAQ
+            SETUP APPOINTMENT
           </button>
         </div>
-        <button
-          className="nav-contact"
-          onClick={() => {
-            navigate("/contact");
-          }}
-        >
-          CONTACT
-        </button>
       </div>
     </>
   );

@@ -1,12 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
 
-function Faq() {
+function Tattoos() {
   return (
     <>
       <Nav />
+      Tattoos
     </>
   );
 }
 
-export default Faq;
+export default Tattoos;

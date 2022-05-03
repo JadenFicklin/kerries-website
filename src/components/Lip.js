@@ -1,12 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
 
-function Liptattoo() {
+function Lip() {
   return (
     <>
       <Nav />
+      Lip
     </>
   );
 }
 
-export default Liptattoo;
+export default Lip;

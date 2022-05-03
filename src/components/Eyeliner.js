@@ -1,13 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
 
-function Contact() {
+function Eyeliner() {
   return (
     <>
       <Nav />
-      Contact
+      Eyeliner
     </>
   );
 }
 
-export default Contact;
+export default Eyeliner;

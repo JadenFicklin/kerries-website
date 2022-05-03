@@ -1,13 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
 
-function Contact() {
+function Appointment() {
   return (
     <>
       <Nav />
-      Contact
+      Appointment
     </>
   );
 }
 
-export default Contact;
+export default Appointment;
