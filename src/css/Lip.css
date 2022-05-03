@@ -83,9 +83,9 @@
   letter-spacing: 2px;
 }
 .lip-paragraph-one {
-  width: 700px;
+  width: 30%;
   height: 256px;
-  margin-left: 275px;
+  margin-left: 14%;
   margin-top: 100px;
   border-left: 14px solid #e8dcce;
   display: flex;
@@ -98,8 +98,9 @@
   font-size: 22px;
   letter-spacing: 2px;
   font-weight: 900;
-  width: 73%;
+  width: 90%;
   height: 60%;
+  z-index: 1;
 }
 .lip-info {
   width: 100%;
@@ -111,6 +112,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .lip-info-inner {
   width: 50%;
@@ -184,4 +186,71 @@
   top: -350px;
   left: 14%;
   z-index: 1;
+}
+.lip-portrait-mid {
+  background-image: url("../pictures/lip/lip\ tattoos\ 3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  top: -350px;
+  left: 33%;
+  width: 564px;
+  height: 762px;
+}
+.lip-box-mid-lower {
+  width: 60%;
+  height: 760px;
+  background-color: #2b717d;
+  position: absolute;
+  margin-top: -900px;
+  right: 0px;
+  z-index: -1;
+}
+
+.lip-box-mid-lower-line {
+  width: 1200px;
+  height: 309px;
+  background-image: url("../pictures/lip/4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: absolute;
+  right: 0px;
+  margin-top: -660px;
+  z-index: 2;
+}
+.lip-box-bottom {
+  width: 570px;
+  height: 775px;
+  background-color: #b1cbca;
+  position: relative;
+  margin-top: -200px;
+  left: 14%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.lip-one {
+  font-family: "Playfair Display", serif;
+  font-size: 152px;
+  margin-left: 120px;
+}
+.lip-one-header {
+  font-size: 30px;
+  width: 907px;
+  position: relative;
+  top: -680px;
+  left: 29%;
+  margin-bottom: -300px;
+}
+.lip-lower-paragraph {
+  width: 611px;
+  height: 367px;
+  position: absolute;
+  top: -350px;
+  left: 46%;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 2;
 }
