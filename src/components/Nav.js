@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Nav.css";
 import { useNavigate } from "react-router-dom";
 
 function Nav() {
   let navigate = useNavigate();
-
+  const [tattoo, setTattoo] = useState(false);
+  console.log(tattoo);
   return (
     <>
       <div className="nav">
@@ -17,7 +18,9 @@ function Nav() {
           >
             HOME
           </button>
-          <button className="nav-tattoos">TATTOOS</button>
+          <button className="nav-tattoos" onClick={() => setTattoo(!tattoo)}>
+            TATTOOS
+          </button>
           <button
             className="nav-contact"
             onClick={() => {
@@ -36,6 +39,42 @@ function Nav() {
           </button>
         </div>
       </div>
+      {tattoo && (
+        <div className="nav-box">
+          <div
+            className="nav-lip"
+            onClick={() => {
+              navigate("/liptattoos");
+            }}
+          >
+            LIP
+          </div>
+          <div
+            className="nav-eyeliner"
+            onClick={() => {
+              navigate("/eyeliner");
+            }}
+          >
+            EYELINER
+          </div>
+          <div
+            className="nav-eyebrows"
+            onClick={() => {
+              navigate("/eyebrows");
+            }}
+          >
+            EYEBROWS
+          </div>
+          <div
+            className="nav-tattoo"
+            onClick={() => {
+              navigate("/tattoos");
+            }}
+          >
+            TATTOO
+          </div>
+        </div>
+      )}
     </>
   );
 }
