@@ -41,6 +41,16 @@ function Lip() {
           <div className="lip-care"> Pre and Post Care</div>
         </div>
       </div>
+      <div className="four-pictures-container">
+        <div className="four-pictures-container-inner">
+          <div className="lip-pictures-one pic"></div>
+          <div className="lip-pictures-two pic"></div>
+          <div className="lip-pictures-three pic"></div>
+          <div className="lip-pictures-four pic"></div>
+        </div>
+      </div>
+      <div className="lip-box-mid"></div>
+      <div className="lip-box-mid-line"></div>
     </>
   );
 }
