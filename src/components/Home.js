@@ -88,7 +88,7 @@ function Home() {
           <div
             className="who-i-am-button"
             onClick={() => {
-              navigate("/faq");
+              navigate("/contact");
             }}
           >
             LEARN MORE
@@ -110,7 +110,7 @@ function Home() {
           <div
             className="who-i-am-button"
             onClick={() => {
-              navigate("/faq");
+              navigate("/contact");
             }}
           >
             LEARN MORE
@@ -126,7 +126,7 @@ function Home() {
         <div
           className="request-an-appointment-button"
           onClick={() => {
-            navigate("/contact");
+            navigate("/appointment");
           }}
         >
           Request an Appointment
