@@ -42,6 +42,7 @@
   flex-wrap: wrap;
   align-items: center;
   cursor: pointer;
+  z-index: 4;
 }
 
 .nav-lip,
