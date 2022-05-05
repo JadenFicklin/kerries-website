@@ -18,7 +18,11 @@ function Nav() {
           >
             HOME
           </button>
-          <button className="nav-tattoos" onClick={() => setTattoo(!tattoo)}>
+          <button
+            className="nav-tattoos"
+            onMouseOver={() => setTattoo(true)}
+            onMouseOut={() => setTattoo(false)}
+          >
             TATTOOS
           </button>
           <button
@@ -40,38 +44,44 @@ function Nav() {
         </div>
       </div>
       {tattoo && (
-        <div className="nav-box">
-          <div
-            className="nav-lip"
-            onClick={() => {
-              navigate("/liptattoos");
-            }}
-          >
-            LIP
-          </div>
-          <div
-            className="nav-eyeliner"
-            onClick={() => {
-              navigate("/eyeliner");
-            }}
-          >
-            EYELINER
-          </div>
-          <div
-            className="nav-eyebrows"
-            onClick={() => {
-              navigate("/eyebrows");
-            }}
-          >
-            EYEBROWS
-          </div>
-          <div
-            className="nav-tattoo"
-            onClick={() => {
-              navigate("/tattoos");
-            }}
-          >
-            TATTOO
+        <div
+          className="nav-box"
+          onMouseOver={() => setTattoo(true)}
+          onMouseOut={() => setTattoo(false)}
+        >
+          <div className="nav-box-inner">
+            <div
+              className="nav-lip"
+              onClick={() => {
+                navigate("/liptattoos");
+              }}
+            >
+              LIP
+            </div>
+            <div
+              className="nav-eyeliner"
+              onClick={() => {
+                navigate("/eyeliner");
+              }}
+            >
+              EYELINER
+            </div>
+            <div
+              className="nav-eyebrows"
+              onClick={() => {
+                navigate("/eyebrows");
+              }}
+            >
+              EYEBROWS
+            </div>
+            <div
+              className="nav-tattoo"
+              onClick={() => {
+                navigate("/tattoos");
+              }}
+            >
+              TATTOO
+            </div>
           </div>
         </div>
       )}
