@@ -25,7 +25,7 @@ function Home() {
               <span>_</span>
               <p>
                 Integer diam quam, ultrices non lobortis ut, ultricies at libero
-                phasellus luctus{" "}
+                phasellus luctuss{" "}
               </p>
             </div>
           </div>
