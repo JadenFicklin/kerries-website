@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
 import "../css/Lip.css";
 
 function Lip() {
+  const [prices, setPrices] = useState(false);
+  console.log(prices);
+
   return (
     <>
       <Nav />
@@ -34,7 +37,9 @@ function Lip() {
       </div>
       <div className="lip-info">
         <div className="lip-info-inner">
-          <div className="lip-prices">Prices</div>
+          <div className="lip-prices" onClick={() => setPrices(!prices)}>
+            Prices
+          </div>
           <div className="divider">|</div>
           <div className="lip-questions">Questions & answers</div>
           <div className="divider">|</div>

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Nav() {
   let navigate = useNavigate();
   const [tattoo, setTattoo] = useState(false);
-  console.log(tattoo);
+  // console.log(tattoo);
   return (
     <>
       <div className="nav">
