@@ -294,9 +294,15 @@
 .lip-care-2 {
   cursor: pointer;
 }
-
-.questions-answers-text {
-  width: 200px;
-  height: 200px;
+.q-outer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.q-close {
+  width: 30px;
+  height: 100%;
   background-color: white;
+  cursor: pointer;
 }

@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import "../css/Lip.css";
 
 function Lip() {
-  const [prices, setPrices] = useState(true);
+  const [open, setOpen] = useState(true);
   const [questions, setQuestions] = useState(true);
   console.log(questions);
 
   const questionsClick = () => {
-    setPrices(!prices);
+    setOpen(false);
     setQuestions(true);
   };
   return (
@@ -40,10 +40,10 @@ function Lip() {
           skin tone.
         </div>
       </div>
-      {prices ? (
+      {open ? (
         <div className="lip-info">
           <div className="lip-info-inner">
-            <div className="lip-prices" onClick={() => setPrices(!prices)}>
+            <div className="lip-prices" onClick={() => setOpen(false)}>
               Prices
             </div>
             <div className="divider">|</div>
@@ -51,7 +51,7 @@ function Lip() {
               Questions & answers
             </div>
             <div className="divider">|</div>
-            <div className="lip-care" onClick={() => setPrices(!prices)}>
+            <div className="lip-care" onClick={() => setOpen(false)}>
               {" "}
               Pre and Post Care
             </div>
@@ -61,13 +61,15 @@ function Lip() {
         <div className="lip-info-2">
           <div className="info-box">
             {questions ? (
-              <div className="questions-answers-text"></div>
+              <div className="q-outer">
+                <div className="q-close" onClick={() => setOpen(true)}></div>
+              </div>
             ) : (
               <div></div>
             )}
           </div>
           <div className="lip-info-inner-2">
-            <div className="lip-prices-2" onClick={() => setPrices(!prices)}>
+            <div className="lip-prices-2" onClick={() => setOpen(false)}>
               Prices
             </div>
             <div className="divider-2">|</div>
@@ -75,7 +77,7 @@ function Lip() {
               Questions & answers
             </div>
             <div className="divider-2">|</div>
-            <div className="lip-care-2" onClick={() => setPrices(!prices)}>
+            <div className="lip-care-2" onClick={() => setOpen(false)}>
               {" "}
               Pre and Post Care
             </div>
