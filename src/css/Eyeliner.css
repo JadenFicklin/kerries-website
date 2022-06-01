@@ -102,30 +102,6 @@
   height: 60%;
   z-index: 1;
 }
-.eyeliner-info {
-  width: 100%;
-  height: 40px;
-  background-color: rgb(235, 235, 235);
-  background-color: #b8a3b6;
-  position: fixed;
-  bottom: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-}
-.eyeliner-info-inner {
-  width: 50%;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.eyeliner-prices,
-.eyeliner-questions,
-.eyeliner-care {
-  cursor: pointer;
-}
 .four-pictures-container {
   width: 100%;
   height: 295px;
@@ -255,3 +231,130 @@
   position: relative;
   z-index: 1;
 }
+
+/* start */
+.eyeliner-info {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(235, 235, 235);
+  background-color: #b8a3b6;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.eyeliner-info-inner {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.eyeliner-prices,
+.eyeliner-questions,
+.eyeliner-care {
+  cursor: pointer;
+}
+/* end */
+
+/* added */
+/* start */
+/* lip info */
+.lip-info {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(235, 235, 235);
+  background-color: #b1cbca;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  transition: 0.2s;
+}
+.lip-info-inner {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lip-prices,
+.lip-questions,
+.lip-care {
+  cursor: pointer;
+}
+
+/* lip info 2 */
+.lip-info-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+  background-color: #b1cbca;
+
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 15px;
+  z-index: 2;
+  transition: 0.2s;
+}
+.lip-info-inner-2 {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.info-box {
+  width: 90%;
+  height: 85vh;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+}
+
+.lip-prices-2,
+.lip-questions-2,
+.lip-care-2 {
+  cursor: pointer;
+}
+.q-outer-outer {
+  width: 100%;
+  height: 100%;
+}
+.q-outer {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.q-close {
+  width: 30px;
+  height: 100%;
+  background-color: #5d8b89;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prices-text {
+  width: 100%;
+  height: 100px;
+}
+.questions-text {
+  width: 100%;
+  height: 100px;
+}
+.pre-text {
+  width: 100%;
+  height: 100px;
+}
+/* end */
