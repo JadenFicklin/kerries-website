@@ -5,11 +5,30 @@ import "../css/Lip.css";
 function Lip() {
   const [open, setOpen] = useState(true);
   const [questions, setQuestions] = useState(true);
-  console.log(questions);
+  const [priceText, setPriceText] = useState(false);
+  const [questionsText, setQuestionsText] = useState(false);
+  const [preText, setPreText] = useState(false);
 
   const questionsClick = () => {
     setOpen(false);
     setQuestions(true);
+    setQuestionsText(true);
+    setPriceText(false);
+    setPreText(false);
+  };
+  const pricesClick = () => {
+    setOpen(false);
+    setQuestions(true);
+    setQuestionsText(false);
+    setPriceText(true);
+    setPreText(false);
+  };
+  const careClick = () => {
+    setOpen(false);
+    setQuestions(true);
+    setQuestionsText(false);
+    setPriceText(false);
+    setPreText(true);
   };
   return (
     <>
@@ -40,10 +59,11 @@ function Lip() {
           skin tone.
         </div>
       </div>
+      {/* start */}
       {open ? (
         <div className="lip-info">
           <div className="lip-info-inner">
-            <div className="lip-prices" onClick={() => setOpen(false)}>
+            <div className="lip-prices" onClick={() => pricesClick()}>
               Prices
             </div>
             <div className="divider">|</div>
@@ -51,7 +71,7 @@ function Lip() {
               Questions & answers
             </div>
             <div className="divider">|</div>
-            <div className="lip-care" onClick={() => setOpen(false)}>
+            <div className="lip-care" onClick={() => careClick()}>
               {" "}
               Pre and Post Care
             </div>
@@ -61,15 +81,34 @@ function Lip() {
         <div className="lip-info-2">
           <div className="info-box">
             {questions ? (
-              <div className="q-outer">
-                <div className="q-close" onClick={() => setOpen(true)}></div>
+              <div className="q-outer-outer">
+                <div className="q-outer">
+                  <div className="q-close" onClick={() => setOpen(true)}>
+                    X
+                  </div>
+                </div>
+                {priceText ? (
+                  <div className="prices-text">these are the prices</div>
+                ) : (
+                  <div></div>
+                )}
+                {questionsText ? (
+                  <div className="questions-text">these are the questions</div>
+                ) : (
+                  <div></div>
+                )}
+                {preText ? (
+                  <div className="pre-text">these are the pre</div>
+                ) : (
+                  <div></div>
+                )}
               </div>
             ) : (
               <div></div>
             )}
           </div>
           <div className="lip-info-inner-2">
-            <div className="lip-prices-2" onClick={() => setOpen(false)}>
+            <div className="lip-prices-2" onClick={() => pricesClick()}>
               Prices
             </div>
             <div className="divider-2">|</div>
@@ -77,13 +116,14 @@ function Lip() {
               Questions & answers
             </div>
             <div className="divider-2">|</div>
-            <div className="lip-care-2" onClick={() => setOpen(false)}>
+            <div className="lip-care-2" onClick={() => careClick()}>
               {" "}
               Pre and Post Care
             </div>
           </div>
         </div>
       )}
+      {/* end */}
 
       <div className="four-pictures-container">
         <div className="four-pictures-container-inner">
