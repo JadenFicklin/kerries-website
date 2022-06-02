@@ -64,7 +64,7 @@ function Tattoos() {
         <div className="tat-info-inner">
           <div className="tat-prices">Prices</div>
           <div className="divider">|</div>
-          <div className="tat-questions">Questions & answers</div>
+          <div className="tat-questions">Questions & answers </div>
           <div className="divider">|</div>
           <div className="tat-care"> Pre and Post Care</div>
         </div>
