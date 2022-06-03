@@ -63,52 +63,54 @@ function Tattoos() {
       <div className="tat-info">
         <div className="tat-info-inner">
           <div className="tat-prices">Prices</div>
-          <div className="divider">|</div>
+          <div className="tat-divider">|</div>
           <div className="tat-questions">Questions & answers </div>
-          <div className="divider">|</div>
+          <div className="tat-divider">|</div>
           <div className="tat-care"> Pre and Post Care</div>
         </div>
       </div>
       {/* start */}
       {open ? (
-        <div className="lip-info">
-          <div className="lip-info-inner">
-            <div className="lip-prices" onClick={() => pricesClick()}>
+        <div className="tat-info">
+          <div className="tat-info-inner">
+            <div className="tat-prices" onClick={() => pricesClick()}>
               Prices
             </div>
-            <div className="divider">|</div>
-            <div className="lip-questions" onClick={() => questionsClick()}>
+            <div className="tat-divider">|</div>
+            <div className="tat-questions" onClick={() => questionsClick()}>
               Questions & answers
             </div>
-            <div className="divider">|</div>
-            <div className="lip-care" onClick={() => careClick()}>
+            <div className="tat-divider">|</div>
+            <div className="tat-care" onClick={() => careClick()}>
               {" "}
               Pre and Post Care
             </div>
           </div>
         </div>
       ) : (
-        <div className="lip-info-2">
-          <div className="info-box">
+        <div className="tat-info-2">
+          <div className="tat-info-box">
             {questions ? (
-              <div className="q-outer-outer">
-                <div className="q-outer">
-                  <div className="q-close" onClick={() => setOpen(true)}>
+              <div className="tat-q-outer-outer">
+                <div className="tat-q-outer">
+                  <div className="tat-q-close" onClick={() => setOpen(true)}>
                     X
                   </div>
                 </div>
                 {priceText ? (
-                  <div className="prices-text">these are the prices</div>
+                  <div className="tat-prices-text">these are the prices</div>
                 ) : (
                   <div></div>
                 )}
                 {questionsText ? (
-                  <div className="questions-text">these are the questions</div>
+                  <div className="tat-questions-text">
+                    these are the questions
+                  </div>
                 ) : (
                   <div></div>
                 )}
                 {preText ? (
-                  <div className="pre-text">these are the pre</div>
+                  <div className="tat-pre-text">these are the pre</div>
                 ) : (
                   <div></div>
                 )}
@@ -117,16 +119,16 @@ function Tattoos() {
               <div></div>
             )}
           </div>
-          <div className="lip-info-inner-2">
-            <div className="lip-prices-2" onClick={() => pricesClick()}>
+          <div className="tat-info-inner-2">
+            <div className="tat-prices-2" onClick={() => pricesClick()}>
               Prices
             </div>
-            <div className="divider-2">|</div>
-            <div className="lip-questions-2" onClick={() => questionsClick()}>
+            <div className="tat-divider-2">|</div>
+            <div className="tat-questions-2" onClick={() => questionsClick()}>
               Questions & answers
             </div>
-            <div className="divider-2">|</div>
-            <div className="lip-care-2" onClick={() => careClick()}>
+            <div className="tat-divider-2">|</div>
+            <div className="tat-care-2" onClick={() => careClick()}>
               {" "}
               Pre and Post Care
             </div>
