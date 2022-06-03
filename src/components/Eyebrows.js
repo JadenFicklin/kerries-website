@@ -69,44 +69,54 @@ function Eyebrows() {
       </div>
       {/* start */}
       {open ? (
-        <div className="lip-info">
-          <div className="lip-info-inner">
-            <div className="lip-prices" onClick={() => pricesClick()}>
+        <div className="eyebrows-info">
+          <div className="eyebrows-info-inner">
+            <div className="eyebrows-prices" onClick={() => pricesClick()}>
               Prices
             </div>
-            <div className="divider">|</div>
-            <div className="lip-questions" onClick={() => questionsClick()}>
+            <div className="eyebrows-divider">|</div>
+            <div
+              className="eyebrows-questions"
+              onClick={() => questionsClick()}
+            >
               Questions & answers
             </div>
-            <div className="divider">|</div>
-            <div className="lip-care" onClick={() => careClick()}>
+            <div className="eyebrows-divider">|</div>
+            <div className="eyebrows-care" onClick={() => careClick()}>
               {" "}
               Pre and Post Care
             </div>
           </div>
         </div>
       ) : (
-        <div className="lip-info-2">
-          <div className="info-box">
+        <div className="eyebrows-info-2">
+          <div className="eyebrows-info-box">
             {questions ? (
-              <div className="q-outer-outer">
-                <div className="q-outer">
-                  <div className="q-close" onClick={() => setOpen(true)}>
+              <div className="eyebrows-q-outer-outer">
+                <div className="eyebrows-q-outer">
+                  <div
+                    className="eyebrows-q-close"
+                    onClick={() => setOpen(true)}
+                  >
                     X
                   </div>
                 </div>
                 {priceText ? (
-                  <div className="prices-text">these are the prices</div>
+                  <div className="eyebrows-prices-text">
+                    these are the prices
+                  </div>
                 ) : (
                   <div></div>
                 )}
                 {questionsText ? (
-                  <div className="questions-text">these are the questions</div>
+                  <div className="eyebrows-questions-text">
+                    these are the questions
+                  </div>
                 ) : (
                   <div></div>
                 )}
                 {preText ? (
-                  <div className="pre-text">these are the pre</div>
+                  <div className="eyebrows-pre-text">these are the pre</div>
                 ) : (
                   <div></div>
                 )}
@@ -115,16 +125,19 @@ function Eyebrows() {
               <div></div>
             )}
           </div>
-          <div className="lip-info-inner-2">
-            <div className="lip-prices-2" onClick={() => pricesClick()}>
+          <div className="eyebrows-info-inner-2">
+            <div className="eyebrows-prices-2" onClick={() => pricesClick()}>
               Prices
             </div>
-            <div className="divider-2">|</div>
-            <div className="lip-questions-2" onClick={() => questionsClick()}>
+            <div className="eyebrows-divider-2">|</div>
+            <div
+              className="eyebrows-questions-2"
+              onClick={() => questionsClick()}
+            >
               Questions & answers
             </div>
-            <div className="divider-2">|</div>
-            <div className="lip-care-2" onClick={() => careClick()}>
+            <div className="eyebrows-divider-2">|</div>
+            <div className="eyebrows-care-2" onClick={() => careClick()}>
               {" "}
               Pre and Post Care
             </div>
