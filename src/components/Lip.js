@@ -123,7 +123,81 @@ function Lip() {
                 )}
                 {questionsText ? (
                   <div className="questions-text">
-                    <div className="questions-top"></div>
+                    <div className="questions-top">Questions and Answers</div>
+                    <div className="q1">Can I get the exact color I want?</div>
+                    <div className="a1">
+                      I have several colors to choose from. If you have a
+                      favorite color bring it in and I can match it :)
+                    </div>
+                    <div className="q2">Does the procedure hurt?</div>
+                    <div className="a2">
+                      There are several topical anesthetics if you need one, I
+                      use great numbing creams. I numb you for 15 minutes before
+                      I start. If you are on your period, you may be more
+                      sensitive. Caffeine and sugar will stimulate the nerves so
+                      it should be avoided the day before and the day of the
+                      procedure. If you have a hard time numbing at the dentist
+                      office, it is recommended to take 10mg of valium and or
+                      10mg of percocet. Ask your doctor for a prescription.
+                    </div>
+                    <div className="q3">How long does the procedure take?</div>
+                    <div className="a3">Typically 2-3 hours</div>
+                    <div className="q4">
+                      How long does permanent make up last?
+                    </div>
+                    <div className="a4">
+                      The permanent makeup that I do lasts 5-10 years. I use
+                      high quality pigments that make it last longer. I use the
+                      rotary pen method which goes deeper and lasts longer. I
+                      encourage my clients to get a color boost to darken their
+                      colors back up after 3-7 years.
+                    </div>
+                    <div className="q5">
+                      How many appointments are necessary for a procedure?
+                    </div>
+                    <div className="a5">
+                      I recommend a touchup at 4-6 weeks. This is so I can check
+                      how they healed, make any adjustments to the shape or
+                      color if desired. Any touch up or color boosts after will
+                      be charged based on the time it’s been since your initial
+                      appointment.
+                    </div>
+                    <div className="q6">
+                      How long does it take for permanent lip tattoo to heal?
+                    </div>
+                    <div className="a6">
+                      The healing process for lips is unique person to person,
+                      generally 7 to 10 days to get passed the peeling point.
+                      The true healed color will come within 3-6 weeks, so it is
+                      normal to get fluctuations in color intensity during that
+                      time frame.
+                    </div>
+                    <div className="q7">
+                      Is permanent make-up like a regular tattoo?
+                    </div>
+                    <div className="a7">
+                      No, it is similar to the same procedure but is not as deep
+                      as a regular tattoo so therefore it is not completely
+                      permanent. The equipment I use is made for fine detail
+                      work. It is recommended to do makeup that looks natural
+                      and enhances your natural beauty.
+                    </div>
+                    <div className="q8">
+                      What if I don’t like the makeup anymore?
+                    </div>
+                    <div className="a8">
+                      I can lighten, darken, or change the color. You can also
+                      get it removed with a laser.
+                    </div>
+                    <div className="q9">
+                      Will there be swelling after the procedures?
+                    </div>
+                    <div className="a9">
+                      Some people swell and some don’t. If you do swell it only
+                      lasts for 3 days. After your procedure you can take 800 mg
+                      of Ibuprofen. I recommend icing the area after your
+                      procedure for comfort and to reduce swelling.
+                    </div>
                   </div>
                 ) : (
                   <div></div>
