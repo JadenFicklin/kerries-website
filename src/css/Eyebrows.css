@@ -319,6 +319,12 @@
   width: 100%;
   height: 100px;
 }
+.eyebrows-prices-top {
+  width: 100%;
+  font-size: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
 .eyebrows-questions-text {
   width: 100%;
   height: 100px;

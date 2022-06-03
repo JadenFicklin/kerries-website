@@ -103,7 +103,7 @@ function Eyebrows() {
                 </div>
                 {priceText ? (
                   <div className="eyebrows-prices-text">
-                    these are the prices
+                    <div className="eyebrows-prices-top">Prices</div>
                   </div>
                 ) : (
                   <div></div>

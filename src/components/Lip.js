@@ -88,12 +88,43 @@ function Lip() {
                   </div>
                 </div>
                 {priceText ? (
-                  <div className="prices-text">these are the prices</div>
+                  <div className="prices-text">
+                    <div className="prices-top">Prices</div>
+
+                    <div className="prices-primary">
+                      Primary and Color Corrections
+                    </div>
+                    <div className="prices-primary-sub">
+                      First time or correcting a color previously applied
+                    </div>
+                    <div className="prices-primary-sub-amount">$500</div>
+
+                    <div className="prices-touchups">Touchups</div>
+                    <div className="prices-touchups-sub">
+                      I highly recommend getting a 4-6 week touch up to ensure
+                      even healing and to make any necessary adjustments. Any
+                      touchups after that are charged according to the amount of
+                      time since your initial appointment.
+                    </div>
+                    <div className="prices-touchups-sub-amount">
+                      4-10 weeks/$100 $500
+                    </div>
+
+                    <div className="prices-color-boost">Color Boost</div>
+                    <div className="prices-color-boost-sub">
+                      If your application needs a color boost but has been more
+                      than 6 months since the primary application, or it got
+                      applied by someone else
+                    </div>
+                    <div className="prices-color-boost-sub-amount">$250+</div>
+                  </div>
                 ) : (
                   <div></div>
                 )}
                 {questionsText ? (
-                  <div className="questions-text">these are the questions</div>
+                  <div className="questions-text">
+                    <div className="questions-top"></div>
+                  </div>
                 ) : (
                   <div></div>
                 )}

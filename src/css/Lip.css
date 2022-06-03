@@ -266,7 +266,6 @@
   height: 100vh;
   background-color: rgb(235, 235, 235);
   background-color: #b1cbca;
-
   position: fixed;
   bottom: 0px;
   display: flex;
@@ -321,6 +320,50 @@
   width: 100%;
   height: 100px;
 }
+.prices-top,
+.prices-primary,
+.prices-primary-sub,
+.prices-primary-sub-amount,
+.prices-touchups,
+.prices-touchups-sub,
+.prices-touchups-sub-amount,
+.prices-color-boost,
+.prices-color-boost-sub,
+.prices-color-boost-sub-amount {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.prices-top {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.prices-primary {
+  font-weight: 700;
+}
+.prices-primary-sub-amount {
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+
+.prices-touchups {
+  font-weight: 700;
+}
+.prices-touchups-sub-amount {
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+
+.prices-color-boost {
+  font-weight: 700;
+}
+.prices-color-boost-sub-amount {
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+
 .questions-text {
   width: 100%;
   height: 100px;
