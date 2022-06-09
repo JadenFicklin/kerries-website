@@ -187,7 +187,7 @@ function Lip() {
                     </div>
                     <div className="a8">
                       I can lighten, darken, or change the color. You can also
-                      get it removed with a laser.
+                      get it removed with a laser
                     </div>
                     <div className="q9">
                       Will there be swelling after the procedures?
