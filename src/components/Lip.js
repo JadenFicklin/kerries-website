@@ -196,7 +196,7 @@ function Lip() {
                       Some people swell and some don’t. If you do swell it only
                       lasts for 3 days. After your procedure you can take 800 mg
                       of Ibuprofen. I recommend icing the area after your
-                      procedure for comfort and to reduce swelling
+                      procedure for comfort and to reduce swelling.
                     </div>
                   </div>
                 ) : (
